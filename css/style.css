@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/rfc0dmm.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-size: 62.5%;
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  background: #000;
+}
+
+h1 { font-size: 6.4rem; font-weight: 100; }
+h2 { font-size: 5.4rem; font-weight: 300; }
+h3 { font-size: 4.8rem; font-weight: 300; }
+h4 { font-size: 4.2rem; font-weight: 300; }
+h5 { font-size: 3.8rem; font-weight: 300; }
+h6 { font-size: 2.8rem; font-weight: 300; }
+
+header {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+.cover {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cover-date {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  color: #fff;
+  opacity: .7;
+}
+
+p, li, a {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+nav {
+  background: #fff;
+  z-index: 2;
+  width: 40%;
+  height: 20%;
+  color: #916356;
+  /* overflow: hidden; */
+}
+
+.nav-images img {
+  height: 25rem;
+}
